@@ -72,3 +72,13 @@ Switched to branch 'my-feature'
 ```
 $ git checkout testing
 ```
+## 8. Инструкция по работе с удаленными репозиториями
+Чтобы скопировать Fork-нуть файл репозитория, заходим в аккаунт с файлом, жмем кнопку Fork в GitHub-е. Затем нажимаем кнопку Code и копируем ссылку.
+Переходим в VS Code, открываем папку где мы работаем. Клонируем файл в свой репозиторий, командой "git clone https://github.com/AndreyBulgakov19/SCV_GitPR.git"
+После, создаем ветку командой "git branch remotes", переходим на ветку remotes : "git checkout remotes"
+Добавляем в него нашу инструкцию командой "git commit -am "Добавили Инструкцию 8 - по работе с удаленными репозиториями""
+Добавляем все файлы командой "git add .\remotes"
+Проверяем статус "git status"
+Добавляем коммит: "git commit -m "Added file with instruction""
+И отправляем(толкаем) все наши добавления в GitHub  "git push --set-upstream origin remotes"
+Там в GitHub нажимаем "compare & pull request" и бежим по всем зеленым кнопкам

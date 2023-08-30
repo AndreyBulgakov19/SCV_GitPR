@@ -213,9 +213,9 @@ git pull
 
 -   В своём аккаунте на GitHub создать копию репозитория  с помощью кнопки "Fork".
 
--   <p style="text-align:left">После совершенных и зафиксированных изменений, найти на странице репозитория кнопку и нажать  <button style="background-color: initial;border: 0;border-radius: var(--borderRadius-medium, 0.375rem);color: var(--fgColor-default, var(--color-fg-default));cursor: pointer;font-size: var(--text-body-size-medium, 0.875rem);line-height: 30px;padding: 0 var(--control-medium-paddingInline-condensed, 0.5rem);position: relative;text-align: center;"><span data-component="text"><svg width="36" height="16" viewBox="0 0 36 16" fill="currentColor" style="display: inline-block; vertical-align: text-bottom;"><path d="M1.5 3.25a2.25 2.25 0 1 1 3 2.122v5.256a2.251 2.251 0 1 1-1.5 0V5.372A2.25 2.25 0 0 1 1.5 3.25Zm5.677-.177L9.573.677A.25.25 0 0 1 10 .854V2.5h1A2.5 2.5 0 0 1 13.5 5v5.628a2.251 2.251 0 1 1-1.5 0V5a1 1 0 0 0-1-1h-1v1.646a.25.25 0 0 1-.427.177L7.177 3.427a.25.25 0 0 1 0-.354ZM3.75 2.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm0 9.5a.75.75 0 1 0 0 1.5.75.75 0 0 0 0-1.5Zm8.25.75a.75.75 0 1 0 1.5 0 .75.75 0 0 0-1.5 0Z"></path></svg>Pull request</span></button></p>
+После совершенных и зафиксированных изменений, найти на странице репозитория кнопку и нажать  **Pull request**
 
--   <p style="text-align:left">Создать новый пулл реуест при помощи кнопки <button style="background-color: darkgreen; border: 0;border-radius: var(--borderRadius-medium, 0.375rem);color: var(--fgColor-default, var(--color-fg-default));cursor: pointer;font-size: var(--text-body-size-medium, 0.875rem);line-height: 20px;padding: 0 var(--control-medium-paddingInline-condensed, 0.5rem);position: relative;text-align: center;"><span data-component="text">New pull request</span>  </button></p>
+-   Создать новый пулл реуест при помощи кнопки **New pull request**
 
 -   Выбрать ветви для сравнения в своем репозитории и в ориганальном 
 -   На этой же странице можно просмотреть различия версий в каждом файле.

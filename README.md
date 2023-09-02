@@ -85,10 +85,14 @@ git remote add <namefor repository> <url-adress repository in internet>
 
 Далее надо переименовать ветку master на имя main  с помощью команды:\
 
-```git branch -M main```
+```
+git branch -M main
+```
 
 Затем надо выполнить последнюю команду для отправления изменений в удаленны репозиторий:
-```git push -u origin main```
+```
+git push -u origin main
+```
 ### Репозиторий для **pull request**
 * В своём аккаунте на GitHub создать копию репозитория **"NameRepository"** с помощью кнопки **"Fork"**.
 ---

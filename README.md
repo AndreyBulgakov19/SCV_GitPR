@@ -83,6 +83,12 @@ git remote add <namefor repository> <url-adress repository in internet>
 ```
 При первом использовании GitHub понадобиться подтверждение того, что вы действительно можете вносить изменения в данный проект. После определенных команд высветиться окно, где надо будет связать git c аккаунтом на GitHub.
 
+Далее надо переименовать ветку master на имя main  с помощью команды:\
+
+```git branch -M main```
+
+Затем надо выполнить последнюю команду для отправления изменений в удаленны репозиторий:
+```git push -u origin main```
 ### Репозиторий для **pull request**
 * В своём аккаунте на GitHub создать копию репозитория **"NameRepository"** с помощью кнопки **"Fork"**.
 ---
@@ -100,5 +106,4 @@ git remote add <namefor repository> <url-adress repository in internet>
 ---
 * На сайте GitHub выполнить **Pull request**.
 ---
-
 

@@ -69,3 +69,37 @@ and
 git branch -d <name of the branch>
 ```
 to delete the desired branch.
+## 12. Working with remote repositories
+1. Create a GitHub account;
+2. Create a local repository;
+3. Create a remote repository;
+4. Connect a remote repository with local.
+
+Add the remote repo to the project:
+```
+git remote add <name of the repo> <repo net url>
+```
+To get and merge the changes from a remote repo the following command is used:
+```
+git pull
+```
+## 13. Working with someone's project remote repository
+1. Find the repository of a project on GitHub.
+2. Click "Fork" to add version of a project to your own account.
+3. On the project page click "Code", than copy the https link.
+4. In VSCode complete the following command to clone the remote repo to the local computer:
+```
+git clone <repo https link>
+``` 
+5. Create and go to the new branch:
+```
+git checkout -b <name of the new branch>
+```
+6. Perform any manipulations with the information in the project.
+7. Commit the changes.
+8. Push the changes to the remote repo in your account on GitHub using the command below:
+```
+git push --set-upstream origin
+```
+9. Go to the project page and click the green button "Compare & Pull request" to make a pull request to the owner of the project.
+ 

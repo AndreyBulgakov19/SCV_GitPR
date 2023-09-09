@@ -148,6 +148,7 @@ git pull
 
 ```Bash
 git push
+git push --set-upstream origin new_01
 ```
 
 ## 20. Синтаксис языка Markdown

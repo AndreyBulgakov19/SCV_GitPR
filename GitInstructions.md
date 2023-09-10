@@ -40,6 +40,10 @@ git config --global user.email your_email@example.com
 * Make your project directory a current directory: ***cd "G:\Python Learning\GB_lessons>"***;
 * Type initialization command: ***git init*** (make sure the directory doesn't already have a Git repository, by checking for hidden <u>```.git```</u> subdirectory).
 
+> To make shure where exactly the repository is created, check the last line in the output of the ***git init*** command:
+>
+> ![gitinitoutput](Git-Init-Output.jpg)
+
 #### 4.2. Clone an existing repository 
 
 * To make a copy of the existing repository type ***git clone <<u>url</u>>***.

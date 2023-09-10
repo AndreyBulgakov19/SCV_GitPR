@@ -163,24 +163,49 @@ The branch we are trying to delete shouldn't be the current (active) branch.
 
 In case if unmerged branch needs to be deleted using "-D" (capital "D") option of ***git branch*** command
 
+## 12. Using the Secure Shell (SSH) protocol
+SSH protocol allows to connect and authenticate to GitHub without supplying username and personal access token at each visit. It can also be used for signing commits.
+
+In order to apply ssh protection there are 2 steps:
+1. generate a new SSH key on your local machine;
+2. add the public key to your account on GitHub.com to enable authentication for Git operations over SSH.
+
+#### 12.1. Generate an SSH key on local user account
+- Open a terminal;
+- Switch to home directory;
 ```
-here below will be included some additional options like:
+cd ~
+```
+- execute the following command:
+```
+ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+```
+When you're prompted to "Enter a file in which to save the key", you can press Enter to accept the default file location. At the prompt, type a secure passphrase.
 
+#### 12.2. Adding a new SSH key to your account on GitHub
+- Type in terminal:
+```
+cat ~/.ssh/id_ed25519.pub 
+```
+- Copy the output to clipboard;
+- In the upper-right corner of GitHub account home page, click your profile photo, then click Settings;
+- In the "Access" section of the sidebar, click  SSH and GPG keys;
+- Click New SSH key or Add SSH key;
+- In the "Title" field, add a descriptive label for the new key;
+- Select the type of key, either authentication or signing;
+- In the "Key" field, paste your public key from clipboard;
+- Click Add SSH key.
 
-- using SSH keys
-- installing GitKraken
-- merging branches in GitHub
+## 13. installing GitKraken
 
+## 14. Discarding operations made by mistake
 - git rebase
 - git revolve
 
-- etc.
-```
-
-## 12. Working with GItHub and execution of ***pull request***
+## 15. Working with GItHub and execution of ***pull request***
 
 
-## 13. Additional books and references about 'Git'.
+## 16. Additional books and references about 'Git'.
 
 
-## 14. Some alternative VCSs.
+## 17. Some alternative VCSs.

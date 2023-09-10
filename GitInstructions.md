@@ -165,6 +165,7 @@ In case if unmerged branch needs to be deleted using "-D" (capital "D") option o
 
 ## 12. Using the Secure Shell (SSH) protocol
 SSH protocol allows to connect and authenticate to GitHub without supplying username and personal access token at each visit. It can also be used for signing commits.
+More detailed information can be found in GitHub documentaion: [About SSH](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/about-ssh)
 
 In order to apply ssh protection there are 2 steps:
 1. generate a new SSH key on your local machine;
@@ -181,6 +182,7 @@ cd ~
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 ```
 When you're prompted to "Enter a file in which to save the key", you can press Enter to accept the default file location. At the prompt, type a secure passphrase.
+For additional information: [Generating a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/generating-a-new-ssh-key-and-adding-it-to-the-ssh-agent)
 
 #### 12.2. Adding a new SSH key to your account on GitHub
 - Type in terminal:
@@ -195,8 +197,12 @@ cat ~/.ssh/id_ed25519.pub
 - Select the type of key, either authentication or signing;
 - In the "Key" field, paste your public key from clipboard;
 - Click Add SSH key.
+For additional information: [Adding a new SSH key](https://docs.github.com/en/authentication/connecting-to-github-with-ssh/adding-a-new-ssh-key-to-your-github-account)
 
 ## 13. installing GitKraken
+
+[Installing GitKraken](https://help.gitkraken.com/gitkraken-client/how-to-install)
+
 
 ## 14. Discarding operations made by mistake
 - git rebase
@@ -206,6 +212,9 @@ cat ~/.ssh/id_ed25519.pub
 
 
 ## 16. Additional books and references about 'Git'.
-
+Find a rich and friendly guidance through Git in the ***[Git Book](https://git-scm.com/book/en/v2j)*** which can be downloaded as a PDF file also.
+Check for the link [Git for newbies - Part 1](https://habr.com/ru/articles/541258) and [Git for newbies - Part 2](https://habr.com/ru/articles/542616) that helps newcomers to get in touch easily.
+Visit the ***[Bitbucket Cloud](https://www.atlassian.com/ru/git)*** learning site for useful information about Git
+The purposive and understandable [screencast](https://vimeo.com/showcase/5616060) from Ilya Kantor
 
 ## 17. Some alternative VCSs.

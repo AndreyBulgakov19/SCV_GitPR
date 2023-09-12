@@ -168,10 +168,10 @@ git branch -d <название ветки>
 ```
 git log --graph
 ```
-![Alt text](long.png)
+![long_view](long.png)
 
 или короткий вариант отображения:
 ```
 git log --oneline --graph
 ```
-![Alt text](short.png)
+![short_view](short.png)

@@ -80,6 +80,7 @@ git log –graph
  
 Можно посмотреть в укороченном варианте:
 git log --oneline --graph
+
 ![screnshot](screnshot.png)
 
 # Работа со своим репозиторием

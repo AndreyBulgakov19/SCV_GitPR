@@ -60,6 +60,14 @@ If you are sure you want to delete it, run 'git branch -D testing'.
 # Работа с удаленными репозиториями 
 
 1. Создать аккаун на Github.
+Нужно создать аккаунт на [Github](https://github.com)
 2. Создать локальный репозиторийю.
+Создаем в созданной на нашем компьютере папке локальный репозиторий.
+На GitHub в своем аккаунте создаем репозиторий: “+” - new repositiry - пишем имя репозитория. 
+Выбираем наш вариант из предложенных:
+    "… or create new repository on the command line" 
+    "…or push and existing repository on the command line" 
+    "…or import code from another repository" 
+
 3. Создать удаленный репозиторий с локальным.
 4. Создать удаленный репозиторий с локальным.

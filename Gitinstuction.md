@@ -68,6 +68,8 @@ If you are sure you want to delete it, run 'git branch -D testing'.
     "… or create new repository on the command line" 
     "…or push and existing repository on the command line" 
     "…or import code from another repository" 
+Далее следуем инструкции и командам из выбраного варианта
 3. Создать удаленный репозиторий.
 Чтобы скопировать чужой репозиторий к себе, необходимо сделать Fork. Затем испольщовать команду `git clone <url-адрес репозитория в сети>`
 4. Связь удаленного репозитория с локальным.
+После окончания работы пушим изменения в удаленный репозиторий `git push -u origin main`

@@ -1,4 +1,4 @@
-![logo](/Git_Instruction/git_logo.png)
+![logo](https://www.freecodecamp.org/news/content/images/2022/07/git-github.png)
 # Работа с Git
 ## 1. Проверка наличия установленного Git
 В терминале выполнить команду `Git --version`. Если Git установлен, появится сообщение с информацией о версии программы, иначе будет сообщение об ошибке.

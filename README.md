@@ -22,3 +22,7 @@
 4. written 2 lines instrution and committed `git commit -m`
 5. to work with remote we need code(URL) from github. and in terminal write `git remote (URL)`
 6. write also `git branch -M` and `git push -u origin main`
+7. `git pull` pull from github new reps to work local
+8. `git push` sent modified reps from local PC to site github.
+9. `pull request` after pushing your *rep* to your account github. on your account appears button **Compare & Pull requst**
+10. you will click this button and sent your version to owner this rep.

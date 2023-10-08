@@ -1,4 +1,3 @@
-![Привет это инструкция Git](Git-Logo-2Color.png)
 
 # Работа с Git
 
@@ -127,3 +126,5 @@ git checkout <имя ветки>
 или
 git switch <имя ветки>
 ```
+# Репозиторий для **pull request**
+

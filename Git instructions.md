@@ -289,4 +289,4 @@ git clone url
     git push
     ```
 
-7. Перейти к копии удаленного репозитория на сайте GitHub и выполнить **Pull request**
+7. Перейти к копии удаленного репозитория на сайте GitHub и выполнить **Compare & pull request**

@@ -192,7 +192,7 @@ origin  https://github.com/AntanasButvila/SCV_GitPR.git (push)
 
 ![gitHub_rep](rem_rep.png)
 
-Теперь попробуем запушить наши изменения в локальном репозитории на GitHub. `git push origin`. Но у нас ничего не вышло потому как мы работаем не в главной ветке и нам необходимо запушить ветку `Antanas_GitInstructs`. Git верминале как раз выдаст ошибку и подскажет какю команду нам необходимо использовать:
+Теперь попробуем запушить наши изменения в локальном репозитории на GitHub. `git push origin`. Но у нас ничего не вышло потому как мы работаем не в главной ветке и нам необходимо запушить ветку `Antanas_GitInstructs`. Git в терминале как раз выдаст ошибку и подскажет какю команду нам необходимо использовать:
 
 ```
 git push origin
@@ -205,3 +205,7 @@ To have this happen automatically for branches without a tracking
 upstream, see 'push.autoSetupRemote' in 'git help config'.
 ```
 используем ее `git push --set-upstream origin Antanas_GitInstructs`
+Видим что все прошло успешно и теперь можем приступить к реадктированию. Так же переносятся все наши коммиты.
+![redactor](https://github.com/AntanasButvila/SCV_GitPR/assets/146936121/4fd30520-fe41-4674-a4f7-d83721fa8ac2)
+
+как только мы внесли изменения вверху можем нажать кнопку `"Commit changes..."`

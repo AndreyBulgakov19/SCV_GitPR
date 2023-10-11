@@ -1,4 +1,4 @@
-![logo](GitCat.jpg)
+![logo](GitLogo.png)
 # Работа с Git
 
 ## 1. Проверка наличия установленного Git

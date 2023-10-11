@@ -134,3 +134,55 @@ If you are sure you want to delete it, run 'git branch -D delete'.
 ![сайт Git](GitHub.png)
 
 В правом верхнем углу будет ваш аватар.
+
+## 2. Создаем удаленный репозиторий
+
+Чтобы создать удаленный репозиторий в правом верхнем углу вы увидите "**+**", нажав на него выбираете "New repository".
+Далее вы выбираете название вашего репозитория и нажимаете "Create new repository"
+
+![create new repository](new_Gitrep.png)
+
+Теперь он создан и GitHub предложит варианты:
+
+![repoptions](Git_remote_sync.png)
+
+* Создать новый репозиторий с помощью терминала на локальной машине.
+```
+echo "# testt" >> README.md
+git init     
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/AntanasButvila/testt.git
+git push -u origin main
+```
+
+* "запушить" уже существующий локальный репозиторий с помощью терминала
+```
+git remote add origin https://github.com/AntanasButvila/testt.git
+git branch -M main
+git push -u origin main
+```
+
+* Или импортировать из другого удаленного репозитория.
+
+## 3. Создаем локальный репозиторий и связываем его с удаленным
+Так как мы уже создали локальный репозиторий, нам необходимо его связать с удаленным, в нашем случае мы выбираем пункт второй:
+* `git remote add origin https://github.com/AntanasButvila/testt.git` -- Данной командой мы указываем путь к нашему удаленному репозиторию, после исполненения команды GitHub предложит нам пройти авторизацию для получения доступа к репозиторию.
+
+`git branch -M main`-- Данная команда переименовывает нашу ветку **master** нашего локального репозитория в **main** как в удаленном.
+
+`git push -u origin main` -- Данная команда "заливает" все ветки и изменения в удаленный репозиторий.
+
+После того как мы проделали все эти команды, можно убедиться что связано все правильно с помощью команды `git remote`
+```
+$ git remote
+origin
+```
+Или же `git remote -v`
+```
+$ git remote -v
+origin  https://github.com/AntanasButvila/SCV_GitPR.git (fetch)
+origin  https://github.com/AntanasButvila/SCV_GitPR.git (push)
+```
+Адрес совпадает все в порядке.  `git fetch` позволяет загрузить все изменения из удаленного репозитория.

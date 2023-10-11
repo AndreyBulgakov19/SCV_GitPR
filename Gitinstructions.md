@@ -191,3 +191,5 @@ origin  https://github.com/AntanasButvila/SCV_GitPR.git (push)
 Теперь мы видим наш репозиторий удаленный
 
 ![gitHub_rep](rem_rep.png)
+
+Теперь попробуем запушить наши изменения в локальном репозитории на GitHub.

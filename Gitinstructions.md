@@ -192,4 +192,16 @@ origin  https://github.com/AntanasButvila/SCV_GitPR.git (push)
 
 ![gitHub_rep](rem_rep.png)
 
-Теперь попробуем запушить наши изменения в локальном репозитории на GitHub.
+Теперь попробуем запушить наши изменения в локальном репозитории на GitHub. `git push origin`. Но у нас ничего не вышло потому как мы работаем не в главной ветке и нам необходимо запушить ветку `Antanas_GitInstructs`. Git верминале как раз выдаст ошибку и подскажет какю команду нам необходимо использовать:
+
+```
+git push origin
+fatal: The current branch Antanas_GitInstructs has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin Antanas_GitInstructs
+
+To have this happen automatically for branches without a tracking
+upstream, see 'push.autoSetupRemote' in 'git help config'.
+```
+используем ее `git push --set-upstream origin Antanas_GitInstructs`

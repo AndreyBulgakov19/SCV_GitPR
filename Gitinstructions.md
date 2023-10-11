@@ -209,3 +209,5 @@ upstream, see 'push.autoSetupRemote' in 'git help config'.
 ![redactor](https://github.com/AntanasButvila/SCV_GitPR/assets/146936121/4fd30520-fe41-4674-a4f7-d83721fa8ac2)
 
 как только мы внесли изменения вверху можем нажать кнопку `"Commit changes..."`
+
+![remoteCommit](remote_commit.png)

@@ -31,7 +31,7 @@ git commit -m "что=то написать"
 ---
 * Отправить изменения на GitHub.
 ```sh
-git branch -d "имя_веток"
+git push
 ```
 ---
 * На сайте GitHub выполнить **Pull request**.

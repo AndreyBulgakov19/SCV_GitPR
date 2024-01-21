@@ -81,3 +81,8 @@ git commit --amend -m "New massage text"
 git clone <url-адрес репозитория>
 ```
 
+Получение изменений и слияние с локальной версией
+```sh
+git pull
+```
+

@@ -112,7 +112,7 @@ print("Hello word")
 
 8. Чтобы создать запрос на pull request, готовый к рассмотрению, нажмите Создать запрос на pull request. Чтобы создать черновой запрос на pull request, воспользуйтесь раскрывающимся списком и выберите Создать черновой запрос на pull request, затем нажмите Черновой запрос на pull request. Дополнительные сведения о черновиках запросов на pull request см. в разделе ["О запросах на pull request"](https://docs.github.com/en/pull-requests/collaborating-with-pull-requests/proposing-changes-to-your-work-with-pull-requests/about-pull-requests#draft-pull-requests).
 
-## Заключение
+## Заключение...
 
 **_To be continued..._**
 

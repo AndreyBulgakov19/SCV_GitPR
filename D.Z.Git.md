@@ -165,4 +165,13 @@ git merge --abort
 ```sh
 git log --graph
 ```
+## Удаленный репозиторий.
 
+### Команды.
+
+_Добавление удалённого репозитория:_
+
+Добавить удалённый репозиторий можно параметром remote add, указав shortname и url требуемого репозитория.
+```sh
+git remote add awesomeapp https://github.com/someurl..
+```

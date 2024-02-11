@@ -54,4 +54,8 @@ uploading changes from locale repo to server
 ```sh
 git push
 ```
+fetching from server
+```sh
+git pull
+```
 

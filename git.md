@@ -58,4 +58,7 @@ fetching from server
 ```sh
 git pull
 ```
-
+to fix conflict with push to server
+```sh
+git pull --rebase
+```

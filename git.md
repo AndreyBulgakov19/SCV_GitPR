@@ -49,3 +49,9 @@ git log --oneline --graph
   
 >here was somthing what'll breack marge
 1. hmmm, what is it?
+
+uploading changes from locale repo to server
+```sh
+git push
+```
+

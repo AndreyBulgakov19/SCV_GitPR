@@ -60,7 +60,12 @@ git diff
 git clone "web URL repo"
 ```
 
-* git pull
+## _git pull_
+>Команда git pull используется для получения изменений из удаленного репозитория и обновления рабочей копии в соответствии с ним.
+```sh
+git pull
+```
+
 * git push
 
 ![Изображение](https://4x4photo.ru/wp-content/uploads/2023/04/spasprez153.jpg "CПС!")

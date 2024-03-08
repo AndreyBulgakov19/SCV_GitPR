@@ -66,6 +66,10 @@ git clone "web URL repo"
 git pull
 ```
 
-* git push
+## _git push_
+>Команда git push используется для загрузки локальных изменений в удалённый репозиторий.
+```sh
+git push
+```
 
 ![Изображение](https://4x4photo.ru/wp-content/uploads/2023/04/spasprez153.jpg "CПС!")

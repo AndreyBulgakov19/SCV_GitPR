@@ -54,6 +54,13 @@ git checkout
 ```sh
 git diff
 ```
+## _git clone_
+>Команда git clone используется для создания копии (удаленного) репозитария.
+```sh
+git clone "web URL repo"
+```
 
+* git pull
+* git push
 
 ![Изображение](https://4x4photo.ru/wp-content/uploads/2023/04/spasprez153.jpg "CПС!")

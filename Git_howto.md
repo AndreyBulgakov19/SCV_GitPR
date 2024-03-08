@@ -9,6 +9,10 @@
 * git log --oneline
 * git checkout
 * git diff
+* git clone
+* git pull
+* git push
+
 
 ## _git init_
 
@@ -50,5 +54,6 @@ git checkout
 ```sh
 git diff
 ```
+
 
 ![Изображение](https://4x4photo.ru/wp-content/uploads/2023/04/spasprez153.jpg "CПС!")

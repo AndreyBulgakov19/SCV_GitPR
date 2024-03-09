@@ -11,4 +11,11 @@
 `git push --set-upstream origin`.
 
 # ***Команды в языке программирования C#***
+Цикл while:
+```C#
+while(n<0)
+{
+n++;
+}
+```
 

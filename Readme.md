@@ -13,3 +13,8 @@ git pull
 ```bash
 git push
 ```
+
+Получить список связанных репозиториев 
+```bash
+git remote
+```

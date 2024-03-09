@@ -18,4 +18,11 @@ while(n<0)
 n++;
 }
 ```
+Цикл for:
+```C#
+for(int i=0;i<arr.Length;i++)
+{
+buf+=arr[i];
+}
+```
 

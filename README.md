@@ -27,7 +27,7 @@
 
 **12. Отправка pull request: Нажмите "_Create pull request_" для отправки вашего pull request в основной репозиторий.**
 
-
+[Ещё подробнее здесь](https://youtu.be/veMDnBt30pk?si=EhNu2NVSds31zLdC)
 
 
 

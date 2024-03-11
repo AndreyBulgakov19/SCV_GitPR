@@ -11,7 +11,7 @@
 
 ## Основные инструкции для начала работы с Git
 
-* `git status`
+* `git status` - проверка статуса текущего проекта
 * `git config` -вводим имя и пароль при первой инициализации git
 * `git diff` -сравнение изменений
 * `git init` -инициализация выбранного репозитория
@@ -29,6 +29,10 @@
 * `git branch -M main` -2-ой шаг для загрузки в удалённый репозиторий
 * `git push -u origin main` -3-ий шаг для загрузки в удалённый репозиторий
 * `git pull` -подгрузка других изменений с удалённого репозитория
+
+# Работа с удалёнными репозиториями (*домашнее задание*)
+
+Для клонирования внешнего репозитория используем кнопку `Fork` на сервисе `GitHub`, после скачвания чужого репозитория к себе, клонируем его на свой компьютер командой `git clone https://github.com/RuffianYura/SCV_GitPR.git` с указанием ссылки на репозиторий. Далее создаём новую ветку командой `git branch name_branch` и указываем название ветки. Добавляем ранее созданную инструкцию в папку с проектом и фиксируем изменения `git add MarkDown_Instruction.md` и выполняем изменения `git commit`. Отправляем изменения на внешний репозиторий `git push` и создаём Pull request на сервисе GitHub.
 
 # Устранение ошибки
 *Another git process seems to be running in this repository, e.g. an editor opened by. Please make sure all processes are terminated then try again. if it still fails, a git process may have crashed in this repository earlier: remove the file manuallyto continue.* -Использовать команду ```rm -f .git/index.lock```

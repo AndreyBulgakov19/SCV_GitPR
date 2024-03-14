@@ -58,5 +58,5 @@ Done.
 ---
 * На сайте GitHub выполнить **Pull request**.
 
-Done. Вот ссылка на [скрин]() о выполнении pull requset.
+Done. Вот ссылка на [скрин](https://gbcdn.mrgcdn.ru/uploads/homeworkattachment/5922590/attachment/e0914e586dbc2b5d78203f7bae9f1cb6.png) о выполнении pull requset.
 ---

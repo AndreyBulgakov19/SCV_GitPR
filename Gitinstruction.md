@@ -210,7 +210,26 @@ $ git push origin master
 
  Если хотите получить побольше информации об одном из удалённых репозиториев, вы можете использовать команду `git remote show <remote>`.
  Выполнив эту команду с некоторым именем, например, `origin`, вы получите следующий результат:
- 
+
+```c#
+$ git remote show origin
+* remote origin
+  Fetch URL: https://github.com/marselik/SCV_GitPR.git
+  Push  URL: https://github.com/marselik/SCV_GitPR.git
+  HEAD branch: main
+  Remote branches:
+    main tracked
+    new  tracked
+  Local branches configured for 'git pull':
+    main merges with remote main
+    new  merges with remote new
+  Local refs configured for 'git push':
+    main pushes to main (up to date)
+    new  pushes to new  (fast-forwardable)
+```
+Она выдаёт URL удалённого репозитория, а также информацию об отслеживаемых ветках. Эта команда любезно сообщает вам, что если вы, находясь на ветке master, выполните git pull, ветка master с удалённого сервера будет автоматически влита в вашу сразу после получения всех необходимых данных. Она также выдаёт список всех полученных ею ссылок.
+
+Это был пример для простой ситуации и вы наверняка встречались с чем-то подобным. Однако, если вы используете Git более интенсивно, вы можете увидеть гораздо большее количество информации от `git remote show`:
 
 
 
